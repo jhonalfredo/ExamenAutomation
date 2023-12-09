@@ -8,4 +8,8 @@ public class IsProyectVisible {
     public static boolean visible(WebDriver webDriver) {
         return WaitUntilElement.isVisible(webDriver, TodoPage.titleProyect);
     }
+
+    public static boolean visibleTask(WebDriver webDriver) {
+        return WaitUntilElement.isVisible(webDriver, TodoPage.newTodoText);
+    }
 }

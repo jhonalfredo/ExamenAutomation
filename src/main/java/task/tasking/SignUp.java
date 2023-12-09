@@ -11,5 +11,7 @@ public class SignUp {
         Enter.text(webDriver, Signup.userForm, user);
         Enter.text(webDriver, Signup.emailForm, email);
         Enter.text(webDriver, Signup.passwordForm, pass);
+        Click.on(webDriver, Signup.checkAcept);
+        Click.on(webDriver, Signup.sentSign);
     }
 }
